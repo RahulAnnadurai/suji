@@ -1,4 +1,4 @@
-a=input("Enter the number")
+a=raw_input("Enter the number")
 if(a.isnumeric()):
   a=int(a)
   if(a>0):
