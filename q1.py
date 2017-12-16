@@ -1,9 +1,11 @@
-def main(a):
-	b=a
-	if(a>0):
-		print("the number is positive")
-	elif(a<0):
-		print("the number is negative")
-	else:
-		print("the number is zero")
-main(2)
+a=input("Enter the number")
+if(a.isnumeric()):
+  a=int(a)
+  if(a>0):
+      print("The number is positive")
+  elif(a==0):
+      print("The number is zero")
+  else:
+      print("The number is negative")
+else:
+    print("Not a valid number")
