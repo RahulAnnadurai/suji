@@ -12,7 +12,7 @@ if(a.isnumeric()):
 			else:
 				even.append(i)
 		print(odds)
-		print(even)
+		
 	else:
 		print("invalid")
 else:
